@@ -1,10 +1,12 @@
 
-import './App.css';
+import './App.scss';
+
+import Header from './Componenets/Header';
 
 function App() {
   return (
     <div className="App">
-      hello
+      <Header/>
     </div>
   );
 }
