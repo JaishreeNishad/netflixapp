@@ -4,14 +4,16 @@ import './App.scss';
 
 import Header from './Componenets/Header';
 import HomeBanner from './Componenets/HomeBanner';
+import Login from './Componenets/Login';
 
 
 function App() {
   return (
-    // React fragments have a smaller DOM, they render faster and use less memory
+    
     <React.Fragment> 
       <Header/>
       <HomeBanner/>
+      <Login/>
     </React.Fragment>
       
      
